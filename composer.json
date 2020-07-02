@@ -1,0 +1,20 @@
+{
+    "name": "codeigniter4-xpander/model",
+    "description": "CodeIgniter 4 XPander Model",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagus A Priambada",
+            "email": "iam.adty@gmail.com"
+        }
+    ],
+    "require": {
+        "codeigniter4-xpander/core": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "CI4Xpander\\Core\\": "src/"
+        }
+    }
+}
